@@ -1,0 +1,23 @@
+{
+  "name": "gulp-ckbuilder",
+  "version": "0.1.0",
+  "description": "CKBuilder plugin for Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MindTouch/gulp-ckbuilder.git"
+  },
+  "keywords": [
+    "ckbuilder",
+    "ckeditor"
+  ],
+  "author": "MindTouch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MindTouch/gulp-ckbuilder/issues"
+  },
+  "homepage": "https://github.com/MindTouch/gulp-ckbuilder"
+}
