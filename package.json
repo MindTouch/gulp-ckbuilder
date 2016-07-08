@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/MindTouch/gulp-ckbuilder",
   "dependencies": {
-    "node-ckbuilder": "git+ssh://git@github.com/MindTouch/node-ckbuilder.git",
+    "node-ckbuilder": "^0.1.0",
     "through2": "2.0.1"
   }
 }
