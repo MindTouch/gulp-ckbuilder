@@ -1,4 +1,5 @@
 'use strict';
+var PluginError = require('gulp-util').PluginError;
 var through = require('through2');
 var ckbuilder = require('node-ckbuilder');
 var pluginName = 'gulp-ckbuilder';
@@ -16,7 +17,7 @@ module.exports = function(src, dest, opts) {
 			builder.generateBuild();
 			this.push(chunk);
 		} catch (err) {
-			this.emit('error', new gutil.PluginError('gulp-ckbuilder', err));
+			this.emit('error', new PluginError(pluginName, err));
 		}
 		cb();
 	});
