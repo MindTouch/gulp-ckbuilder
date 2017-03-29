@@ -1,6 +1,6 @@
 {
   "name": "gulp-ckbuilder",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "CKBuilder plugin for Gulp",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/MindTouch/gulp-ckbuilder",
   "dependencies": {
     "gulp-util": "^3.0.7",
-    "node-ckbuilder": "^0.2.0",
+    "node-ckbuilder": "^0.3.0",
     "through2": "2.0.1"
   }
 }
